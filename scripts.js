@@ -38,5 +38,7 @@ setInterval(function () {
     const str = String.fromCharCode(m.floor(2720 + r * 33));
     c.fillText(str, i * 10, v);
     v += 10;
+    const ret = v > 768 + r * 1e4 ? 0 : v;
+    return ret;
   });
 });
