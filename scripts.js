@@ -32,4 +32,5 @@ m = Math;
 setInterval(function () {
   c.fillStyle = "rgba(0,0,0,0.05)";
   c.fillRect(0, 0, w, h);
+  c.fillStyle = "rgba(0,255,0,1)";
 });
