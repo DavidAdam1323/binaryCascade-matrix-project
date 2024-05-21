@@ -35,5 +35,6 @@ setInterval(function () {
   c.fillStyle = "rgba(0,255,0,1)";
   p = p.map(function (v, i) {
     r = m.random();
+    const str = String.fromCharCode(m.floor(2720 + r * 33));
   });
 });
