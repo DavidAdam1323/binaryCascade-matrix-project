@@ -36,5 +36,6 @@ setInterval(function () {
   p = p.map(function (v, i) {
     r = m.random();
     const str = String.fromCharCode(m.floor(2720 + r * 33));
+    c.fillText(str, i * 10, v);
   });
 });
