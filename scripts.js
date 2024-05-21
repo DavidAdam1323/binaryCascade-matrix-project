@@ -28,3 +28,8 @@ c = q.getContext("2d");
 The Math object allows you to perform mathematical tasks in JavaScript, 
 such as generating random numbers, performing calculations, and more. */
 m = Math;
+
+setInterval(function () {
+  c.fillStyle = "rgba(0,0,0,0.05)";
+  c.fillRect(0, 0, w, h);
+});
